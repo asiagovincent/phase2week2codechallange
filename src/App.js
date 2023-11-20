@@ -10,7 +10,7 @@ const App = () => {
 
   useEffect(() => {
     // Fetch data from the local server
-    fetch('http://localhost:3000/bots')
+    fetch('https://my-json-server.typicode.com/asiagovincent/phase2week2codechallange/bots')
       .then((response) => response.json())
       .then((data) => setBots(data))
       .catch((error) => console.error('Error fetching bots:', error));
