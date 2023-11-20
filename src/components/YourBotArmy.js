@@ -10,7 +10,7 @@ const YourBotArmy = ({ yourBotArmy, dischargeBot }) => {
             <div key={bot.id} className="bot-card">
               <h3>{bot.name}</h3>
               <img src={bot.avatar_url} alt={bot.name} />
-              {/* Replace "Discharge" with a red x icon */}
+              
               <button onClick={() => dischargeBot(bot.id)} className="remove-button">
                 &#10060;
               </button>

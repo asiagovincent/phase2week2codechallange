@@ -6,7 +6,7 @@
 
 .bot-grid {
   display: grid;
-  grid-template-columns: repeat(11, 1fr); /* Set the number of columns to 5 */
+  grid-template-columns: repeat(4, 1fr); /* Set the number of columns to 5 */
   gap: 10px;
 }
 
