@@ -1,38 +1,50 @@
-.App {
+/* Add this to your global styles or component-specific styles */
+
+.bot-collection {
+  margin-top: 20px;
+}
+
+.bot-grid {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr); /* Set the number of columns to 5 */
+  gap: 10px;
+}
+
+.bot-card {
+  border: 1px solid #ccc;
+  padding: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* styles.css */
+
+.your-bot-army {
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.added-bots {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.bot-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.remove-button {
+  background-color: #ff0000; /* Red background color */
+  color: #ffffff; /* White text color */
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
 }
+
+/* Adjust the styles based on your design preferences */
+
+
+
